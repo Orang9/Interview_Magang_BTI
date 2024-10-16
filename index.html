@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <p>
+        Soal(Masukkan nilai-nilai tiap pertanyaan dalam soal yang dipisah dengan
+        koma,maksimal 10 pertanyaan)
+      </p>
+      <input type="text" name="inputQuestionPoints" id="inputQuestionPoints" />
+      <p>
+        T: <input type="text" name="limitPoint" id="limitPoint" />
+        <button type="button" id="formSubmit">Submit</button>
+      </p>
+
+      <p><b>SOAL</b></p>
+
+      <p id="outputQuestionPoints"></p>
+
+      <p>Dengan Nilai total soal (T) = <span id="outputLimitPoint"></span> ?</p>
+
+      <p><b>JAWABAN</b></p>
+
+      <p id="outputAnswer"></p>
+
+      <script src="script.js"></script>
+    </form>
+  </body>
+</html>
